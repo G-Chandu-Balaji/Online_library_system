@@ -209,3 +209,31 @@ export const Books = [
     year: 1988,
   },
 ];
+
+export const category = [
+  {
+    category: "Fiction",
+    image:
+      "https://www.gematsu.com/wp-content/uploads/2024/12/Game-Page-Featured_Split-Fiction.jpg?w=640",
+  },
+  {
+    category: "Romance",
+    image:
+      "https://b1909488.smushcdn.com/1909488/wp-content/uploads/2024/10/dark-romance-dystopian-young-adult-books-feature-1024x576.jpg?lossy=1&strip=1&webp=1",
+  },
+  {
+    category: "Thriller",
+    image:
+      "https://fully-booked.ca/wp-content/uploads/2024/07/What-Elements-Make-Up-A-Young-Adult-Thriller-feature-1024x576.jpg",
+  },
+  {
+    category: "Biography",
+    image:
+      "https://aimlay.com/wp-content/uploads/2022/04/Elements-of-a-Biography-3.webp",
+  },
+  {
+    category: "Fantasy",
+    image:
+      "https://b1909488.smushcdn.com/1909488/wp-content/uploads/2024/06/difference-between-high-fantasy-and-epic-fantasy-feature-1024x576.jpg?lossy=1&strip=1&webp=1",
+  },
+];

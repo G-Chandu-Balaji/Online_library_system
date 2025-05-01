@@ -1,11 +1,12 @@
 import React from "react";
+
 import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="flex bg-blue-950 text-white justify-between px-3 items-center h-[8vh]">
       <div className="flex gap-1 items-center">
-        <img src="book.png" alt="logo" className="w-[60px] h-[60px] mb-[5px]" />
+        <img src="books_home.png" alt="logo" className="w-[60px] h-[60px] " />
         <h1
           className="text-3xl  capitalize font-bold bg-clip-text text-transparent bg-gradient-to-bl
       from-red-500 to-blue-400"

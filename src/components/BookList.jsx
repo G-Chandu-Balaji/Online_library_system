@@ -1,14 +1,19 @@
-import React, { useState } from "react";
-import { Books } from "../utils/data";
+// import { Books } from "../utils/data";
+import { useSelector } from "react-redux";
+import Book_notFound from "./Book_notFound";
 import BookCard from "./BookCard";
 
-export default function BookList() {
-  const [filteredBooks, setFilteredBooks] = useState(Books);
+export default function BookList({ searchBook }) {
+  const Books = useSelector((store) => store.BookList.Books);
+  const booksData = searchBook && searchBook.length > 0 ? searchBook : Books;
+
   return (
-    <div className="flex flex-wrap gap-6 justify-center  ">
-      {filteredBooks.map((book) => (
-        <BookCard book={book} key={book.id} />
-      ))}
+    <div className="flex flex-wrap gap-6 justify-center">
+      {searchBook && searchBook.length === 0 ? (
+        <Book_notFound />
+      ) : (
+        booksData.map((book) => <BookCard book={book} key={book.id} />)
+      )}
     </div>
   );
 }
