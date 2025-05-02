@@ -1,6 +1,6 @@
 # 📚 Online Library System Web App
 
-This is a simple book library application built with **React**, **React Router**, and **Redux**. It allows users to browse books by category, view detailed information about each book, add new books, and handle 404 pages.
+This is a simple book library application built with **React**. It allows users to browse books by category, search books by tilte/author, view detailed information about each book, add new books, and handle 404 Error pages.
 
 ## 🚀 Features
 
@@ -47,23 +47,25 @@ This is a simple book library application built with **React**, **React Router**
 
 ## 🧪 Project Structure
 
+```
 src/
-├── components/ # Reusable UI components
-├── pages/ # Page components (Home, Browser_Page, Book_category, Book_Details, Add_Book, Error)
-├── utils/ # Redux store, slices and dummydata
-├── App.jsx # App layout
-├── main.jsx # Routing
-└── index.js # App entry point
+├── components/              # Reusable UI components
+├── pages/                   # Page components (Home, Browser_Page, Book_category, Book_Details, Add_Book, Error)
+├── utils/                   # Redux store, slices and dummydata
+├── App.jsx                  # App layout
+├── main.jsx                 # Routing
+└── index.js                 # App entry point
+```
 
 ---
 
 ## 📝 Usage Instructions
 
-- Home Page: Shows categories and popular books
-- Browse_Page: Filter books by category or search by title/author
-- Book_Details Page: View detailed info about a selected book
-- Add_Book Page: Submit a new book with form validation
-- Book_category: View list books related to smae categories
-- Erorr Page: Handles undefined routes with a back-to-home link
+- **Home Page**: Shows categories and popular books
+- **Browse_Page**: Filter books by category or search by title/author
+- **Book_Details Page**: View detailed info about a selected book
+- **Add_Book Page**: Submit a new book with form validation
+- **Book_category**: View list books related to smae categories
+- **Erorr Page**: Handles undefined routes with a back-to-home link
 
 ---
