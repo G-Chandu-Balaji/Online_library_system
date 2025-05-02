@@ -39,9 +39,9 @@ export default function Book_Details() {
         </div>
       </div>
       <div className="flex justify-center mt-5 ">
-        <Link to="/Browser_Page">
+        <Link to="/Browse_Books">
           <button className="p-3 bg-blue-600 text-white rounded-xl hover:underline hover:underline-offset-4 duration-500 hover:scale-[1.1] flex justify-center">
-            Back to Browse Page
+            Back to Browse
           </button>
         </Link>
       </div>

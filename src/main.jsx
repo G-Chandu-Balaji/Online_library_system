@@ -4,9 +4,9 @@ import "./index.css";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Book_Details from "./Pages/Book_Details.jsx";
-import Browser_Page from "./Pages/Browser_Page.jsx";
+import Browse_Books from "./Pages/Browse_Books.jsx";
 import Home from "./Pages/Home.jsx";
-import Error from "./components/Error.jsx";
+import Error from "./Pages/404_Error.jsx";
 import Add_Book from "./Pages/Add_Book.jsx";
 import Book_Category from "./Pages/Book_Category.jsx";
 
@@ -22,8 +22,8 @@ const appRouter = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/Browser_Page",
-        element: <Browser_Page />,
+        path: "/Browse_Books",
+        element: <Browse_Books />,
       },
       {
         path: "/books/:category",

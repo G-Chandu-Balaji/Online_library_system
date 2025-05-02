@@ -50,7 +50,7 @@ This is a simple book library application built with **React**. It allows users 
 ```
 src/
 ├── components/              # Reusable UI components
-├── pages/                   # Page components (Home, Browser_Page, Book_category, Book_Details, Add_Book, Error)
+├── Pages/                   # Page components (Home, Browse_BooK, Book_category, Book_Details, Add_Book, 404_Error)
 ├── utils/                   # Redux store, slices and dummydata
 ├── App.jsx                  # App layout
 ├── main.jsx                 # Routing
@@ -66,6 +66,6 @@ src/
 - **Book_Details Page**: View detailed info about a selected book
 - **Add_Book Page**: Submit a new book with form validation
 - **Book_category**: View list books related to smae categories
-- **Erorr Page**: Handles undefined routes with a back-to-home link
+- **404_Erorr Page**: Handles undefined routes with a back-to-home link
 
 ---

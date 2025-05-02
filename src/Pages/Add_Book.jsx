@@ -20,7 +20,7 @@ export default function Add_Book() {
     data.id = Books.length + 1;
 
     dispatch(addBook(data));
-    navigate("/Browser_page");
+    navigate("/Browse_Books");
 
     reset();
   };

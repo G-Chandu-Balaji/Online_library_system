@@ -3,7 +3,7 @@ import BookList from "../components/BookList";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-export default function Browser_Page() {
+export default function Browse_Books() {
   const [inputText, setInputText] = useState(null);
   const [searchBook, SetSearchBook] = useState(null);
   const navigate = useNavigate();
@@ -40,6 +40,7 @@ export default function Browser_Page() {
             <option value="/books/Fantasy">Fantasy</option>
             <option value="/books/Romance">Romance</option>
             <option value="/books/Thriller">Thriller</option>
+            <option value="/books/Literature">Literature</option>
           </select>
         </nav>
       </div>

@@ -22,7 +22,7 @@ function Header() {
           Home
         </Link>
         <Link
-          to="/Browser_Page"
+          to="/Browse_Books"
           className="hover:bg-blue-700 p-2 rounded-lg hover:scale-[1.08]"
         >
           Browse Books
