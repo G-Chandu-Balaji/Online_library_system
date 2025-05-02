@@ -8,6 +8,7 @@ export const Books = [
     image: "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg",
     category: "Dystopian Fiction",
     year: 1949,
+    rating: 4.5,
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const Books = [
     image: "https://m.media-amazon.com/images/I/81YOuOGFCJL.jpg",
     category: "Fantasy",
     year: 1997,
+    rating: 4,
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const Books = [
     author: "F. Scott Fitzgerald",
     category: "Classic Fiction",
     year: 1925,
+    rating: 3,
     description:
       "A critique of the American Dream set in the Roaring Twenties.",
     image: "https://m.media-amazon.com/images/I/41oAprmWTSL._SY445_SX342_.jpg",
@@ -38,6 +41,7 @@ export const Books = [
     image: "https://m.media-amazon.com/images/I/81h2gWPTYJL.jpg",
     category: "Biography",
     year: 2018,
+    rating: 3.5,
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const Books = [
     image: "https://m.media-amazon.com/images/I/41yu2qXhXXL._SY445_SX342_.jpg",
     category: "History",
     year: 2011,
+    rating: 5,
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ export const Books = [
     image: "https://m.media-amazon.com/images/I/41j-s9fHJcL._SY445_SX342_.jpg",
     category: "Fiction",
     year: 1960,
+    rating: 5,
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ export const Books = [
     image: "https://covers.openlibrary.org/b/id/14627222-L.jpg",
     category: "Fantasy",
     year: 1937,
+    rating: 2,
   },
   {
     id: 8,
@@ -79,6 +86,7 @@ export const Books = [
       "https://ia600100.us.archive.org/view_archive.php?archive=/5/items/l_covers_0012/l_covers_0012_39.zip&file=0012392336-L.jpg",
     category: "Thriller",
     year: 2003,
+    rating: 2.5,
   },
   {
     id: 9,
@@ -90,6 +98,7 @@ export const Books = [
       "https://upload.wikimedia.org/wikipedia/en/8/8e/The_Fellowship_of_the_Ring_cover.gif",
     category: "Fantasy",
     year: 1954,
+    rating: 4,
   },
   {
     id: 10,
@@ -100,6 +109,7 @@ export const Books = [
     image: "https://m.media-amazon.com/images/I/81OthjkJBuL.jpg",
     category: "Historical Fiction",
     year: 2005,
+    rating: 4.5,
   },
   {
     id: 11,
@@ -110,6 +120,7 @@ export const Books = [
     image: "https://covers.openlibrary.org/b/id/7285167-L.jpg",
     category: "Romance",
     year: 2012,
+    rating: 5,
   },
   {
     id: 12,
@@ -121,6 +132,7 @@ export const Books = [
       "https://thebigsmoke.com.au/wp-content/uploads/tender-is-the-night.jpg",
     category: "Classic Literature",
     year: 1934,
+    rating: 5,
   },
   {
     id: 13,
@@ -132,6 +144,7 @@ export const Books = [
       "https://ia600505.us.archive.org/view_archive.php?archive=/35/items/l_covers_0014/l_covers_0014_65.zip&file=0014651795-L.jpg",
     category: "Horror",
     year: 1986,
+    rating: 4.5,
   },
   {
     id: 14,
@@ -142,6 +155,7 @@ export const Books = [
     image: "https://covers.openlibrary.org/b/id/14855544-L.jpg",
     category: "Dystopian Fiction",
     year: 2008,
+    rating: 5,
   },
   {
     id: 15,
@@ -153,6 +167,7 @@ export const Books = [
       "https://ia600505.us.archive.org/view_archive.php?archive=/35/items/l_covers_0014/l_covers_0014_61.zip&file=0014612980-L.jpg",
     category: "Science Fiction",
     year: 1951,
+    rating: 3.5,
   },
   {
     id: 16,
@@ -164,6 +179,7 @@ export const Books = [
       "https://ia600505.us.archive.org/view_archive.php?archive=/35/items/l_covers_0014/l_covers_0014_56.zip&file=0014561973-L.jpg",
     category: "Mystery",
     year: 1934,
+    rating: 4,
   },
   {
     id: 17,
@@ -175,6 +191,7 @@ export const Books = [
       "https://ia801909.us.archive.org/view_archive.php?archive=/31/items/l_covers_0013/l_covers_0013_61.zip&file=0013613167-L.jpg",
     category: "Literary Fiction",
     year: 1987,
+    rating: 5,
   },
   {
     id: 18,
@@ -186,6 +203,7 @@ export const Books = [
       "https://ia800100.us.archive.org/view_archive.php?archive=/5/items/l_covers_0012/l_covers_0012_62.zip&file=0012627263-L.jpg",
     category: "Contemporary Fiction",
     year: 2013,
+    rating: 2.5,
   },
   {
     id: 19,
@@ -197,6 +215,7 @@ export const Books = [
       "https://ia800505.us.archive.org/view_archive.php?archive=/35/items/l_covers_0014/l_covers_0014_42.zip&file=0014420908-L.jpg",
     category: "Fantasy",
     year: 2001,
+    rating: 1,
   },
   {
     id: 20,
@@ -207,6 +226,7 @@ export const Books = [
     image: "https://covers.openlibrary.org/b/id/14828473-L.jpg",
     category: "Philosophy",
     year: 1988,
+    rating: 4.5,
   },
 ];
 

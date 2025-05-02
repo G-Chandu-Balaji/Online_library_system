@@ -8,9 +8,7 @@ const bookListSlice = createSlice({
   },
   reducers: {
     addBook: (state, action) => {
-      console.log("inside reducer action details", state);
-      state.Books.push(action.payload);
-      console.log("added new item", state.Books);
+      state.Books.unshift(action.payload);
     },
   },
 });

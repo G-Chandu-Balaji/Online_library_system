@@ -1,1 +1,93 @@
 @import "tailwindcss";
+
+.typewriter-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: fit-content;
+  /* border-right: 2px solid #000; */
+}
+
+.typewriter {
+  animation: typing 4s steps(30, end), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.to-left {
+  animation: moveLeft 5s ease-in-out 4s;
+}
+
+.to-right {
+  animation: moveRight 5s ease-in-out 4s;
+}
+
+.show {
+  animation: showup 5s;
+}
+.text-rotate {
+  animation: text-rotate 9s linear 0s;
+}
+
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translate(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes text-rotate {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

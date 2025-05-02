@@ -7,7 +7,11 @@ export default function BookCard({ book }) {
       className=" w-[300px] bg-amber-500 rounded-lg shadow-2xl border-1 border-black p-1 text-center gap-1 hover:scale-[1.1] duration-300
     "
     >
-      <img src={book.image} alt="book image" className=" h-[250px] w-[100%] " />
+      <img
+        src={book.image}
+        alt={`${book.title} book image`}
+        className=" h-[250px] w-[100%] "
+      />
       <h3 className="font-bold">{book.title}</h3>
       <p>
         by {""}

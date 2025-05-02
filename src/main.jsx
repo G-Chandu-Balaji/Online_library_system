@@ -3,12 +3,15 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Book_Details from "./components/Book_Details.jsx";
-import Browser_Page from "./components/Browser_Page.jsx";
-import Home from "./components/Home.jsx";
+import Book_Details from "./Pages/Book_Details.jsx";
+import Browser_Page from "./Pages/Browser_Page.jsx";
+import Home from "./Pages/Home.jsx";
 import Error from "./components/Error.jsx";
-import Add_Book from "./components/Add_Book.jsx";
-import Book_Category from "./components/Book_Category.jsx";
+import Add_Book from "./Pages/Add_Book.jsx";
+import Book_Category from "./Pages/Book_Category.jsx";
+
+import Error_book from "./components/Error_book.jsx";
+import Error_Category from "./components/Error_Category.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -25,11 +28,13 @@ const appRouter = createBrowserRouter([
       {
         path: "/books/:category",
         element: <Book_Category />,
+        errorElement: <Error_Category />,
       },
 
       {
         path: "/Book/:bookId",
         element: <Book_Details />,
+        errorElement: <Error_book />,
       },
       {
         path: "/Add_Book",
